@@ -2,6 +2,8 @@
 
 Project consisting of mashing up data from two different APIs (OMDB and TasteDive) to make movie recommendations.
 
+Developed as part of a project from the course *Data Collection and Processing with Python*, provided by University of Michigan through Coursera.
+
 ## API
 
 * **TasteDive API:** provides a movie (or bands, TV shows, etc.) as a query input, and returns a set of related items.
