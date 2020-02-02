@@ -10,8 +10,8 @@ Below are some of my recent Python 3 projects. Please reach out if you have any 
 
 ## Projects
 
-### [API mash-up: movie recomendations](https://github.com/JonP-HN/Data-Science-projects/tree/master/API%20mash-up:%20movie%20recommendations#movie_camera-api-mash-up-movie-recomendations)
+### [API mash-up: movie recomendations](https://github.com/JonP-HN/Python-3-projects/tree/master/API%20mash-up:%20movie%20recommendations)
 
-### [Search Application](https://github.com/JonP-HN/Data-Science-projects/tree/master/Search%20Application)
+### [Search Application](https://github.com/JonP-HN/Python-3-projects/tree/master/Search%20Application)
 
-### [Wheel of Python](https://github.com/JonP-HN/Data-Science-projects/tree/master/Wheel%20of%20Fortune)
+### [Wheel of Python](https://github.com/JonP-HN/Python-3-projects/tree/master/Wheel%20of%20Python)
