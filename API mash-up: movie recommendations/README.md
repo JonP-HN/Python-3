@@ -1,6 +1,6 @@
 # :movie_camera: API mash-up: movie recomendations 
 
-Project consisting of mashing up data from two different APIs (OMDB and TasteDive) to make movie recommendations.
+Project consisting of mashing up data from two different APIs (OMDB and TasteDive) to generate movie recommendations, sorted according to their Rotten Tomatoes scores.
 
 Developed as part of a project from the course *Data Collection and Processing with Python*, provided by University of Michigan through Coursera.
 
