@@ -3,7 +3,7 @@
 This program allows one to search through (in this case) newspaper images looking for the occurrences of keywords and faces. For example:
 
 <p align="center">
-  <img width="700 src="https://github.com/JonP-HN/Python-3-projects/blob/master/Search%20Application/Search%20application%20example.png">
+  <img width="900" src="https://github.com/JonP-HN/Python-3-projects/blob/master/Search%20Application/Search%20application%20example.png">
 </p>
 
 *Note: files may take some time to process.
