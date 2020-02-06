@@ -1,7 +1,70 @@
-#!/usr/bin/env python
-# coding: utf-8
+class WOFPlayer ():
+    
+    def __init__(self, name):
+        self.name = name
+        self.prizeMoney = 0
+        self.prizes = []
+    def addMoney(self, amt):
+        self.prizeMoney += amt
+    def goBankrupt(self):
+        self.prizeMoney = 0
+    def addPrize(self, prize):
+        self.prizes.append(prize)
+    def __str__(self):
+        return "{} (${})".format(self.name, self.prizeMoney)
 
-# In[ ]:
+class WOFHumanPlayer(WOFPlayer):
+    def getMove(self,category, obscuredPhrase, guessed):
+            prompt = input("""
+{} has ${prizeMoney}
+
+Category: {}
+Phrase:  {}
+Guessed: {}
+
+Guess a letter, phrase, or type 'exit' or 'pass':
+""".format(self.name, category, obscuredPhrase, guessed))
+            return prompt
+
+class WOFComputerPlayer(WOFPlayer):
+
+    SORTED_FREQUENCIES = 'ZQXJKVBPYGFWMUCLDRHSNIOATE'
+
+    def __init__(self, name, difficulty):
+        self.name = name
+        self.difficulty = difficulty
+        self.prizeMoney = 0
+        self.prizes = []
+
+    def smartCoinFlip(self):
+        rand_num = random.randint(1, 10)
+        if rand_num > self.difficulty:
+            return True
+        else:
+            return False
+
+    def getPossibleLetters(self, guessed):
+        letter_list = []
+        if self.prizeMoney >= 250:
+            for ltr in LETTERS:
+                if ltr not in guessed:
+                    letter_list.append(ltr)
+            return letter_list
+        else:
+            for ltr in LETTERS:
+                if ltr not in guessed and ltr not in VOWELS:
+                    letter_list.append(ltr)
+            return letter_list
+
+    def getMove(self, category, obscuredPhrase, guessed):       
+        if self.getPossibleLetters(guessed) ==[]:
+            return 'pass'
+        elif self.smartCoinFlip() == True:
+            for i in self.SORTED_FREQUENCIES[::-1]:
+                if i in self.getPossibleLetters(guessed):
+                    return i               
+        else:
+            return random.choice(self.getPossibleLetters(guessed))
 
 
 import sys
@@ -218,4 +281,3 @@ if winner:
             print('    - {}'.format(prize))
 else:
     print('Nobody won. The phrase was {}'.format(phrase))
-
