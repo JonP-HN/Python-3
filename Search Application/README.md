@@ -18,4 +18,4 @@ Project is created with:
 ## Python Libraries
 * OpenCV: to detect faces.
 * Pytesseract: for optical character recognition.
-* Pil: to combine images together into contact sheets.
+* Pillow: to combine images together into contact sheets.
