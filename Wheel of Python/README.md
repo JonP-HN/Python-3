@@ -2,7 +2,7 @@
 
 Simplified version of the game *Wheel of Fortune*. 
 
-<p align="center">
+<p align="left">
   <img width="500" src="https://github.com/JonP-HN/Python-3-projects/blob/master/Wheel%20of%20Python/Player%20Prompt.PNG">
 </p>
 
