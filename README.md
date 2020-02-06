@@ -12,8 +12,8 @@ Below are some of my recent Python 3 projects. Please reach out if you have any 
 
 ### [API mash-up: movie recomendations](https://github.com/JonP-HN/Python-3-projects/tree/master/API%20mash-up:%20movie%20recommendations)
 
-### [Search Application](https://github.com/JonP-HN/Python-3-projects/tree/master/Search%20Application)
+### [Search Application: based on ocurrence of keywords and faces](https://github.com/JonP-HN/Python-3-projects/tree/master/Search%20Application)
 * Program able to detect text and faces within images.
-* Creation of a search application based on ocurrence of keywords and faces.
+* Applied Optical Character Recognition by combining Pillow, Pytesseract and OpenCV libraries in Python.
 
-### [Wheel of Python](https://github.com/JonP-HN/Python-3-projects/tree/master/Wheel%20of%20Python)
+### [Wheel of Python: a game for fun!](https://github.com/JonP-HN/Python-3-projects/tree/master/Wheel%20of%20Python)
