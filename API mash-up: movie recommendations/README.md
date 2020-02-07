@@ -1,5 +1,5 @@
 # :movie_camera: API mash-up: movie recomendations 
-Data mash-up from the Application Programming Interfaces (APIs) of OMDB and TasteDive to generate movie recommendations, sorted according to their Rotten Tomatoes scores.
+Data mash-up from the Application Programming Interfaces (APIs) of OMDB and TasteDive. This generates movie recommendations, sorted according to their Rotten Tomatoes scores.
 
 ## Features
 * Get related movie recommendations after entering the name of a film.
