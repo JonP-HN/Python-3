@@ -11,6 +11,8 @@ Below are some of my recent Python 3 projects. Please reach out if you have any 
 ## Projects
 
 ### [API mash-up: movie recomendations](https://github.com/JonP-HN/Python-3-projects/tree/master/API%20mash-up:%20movie%20recommendations)
+* Obtain movie recommendations after entering the name of a film.
+* Access, cache and process data from two APIs (OMDB and Tastedive).
 
 ### [Search Application: based on ocurrence of keywords and faces](https://github.com/JonP-HN/Python-3-projects/tree/master/Search%20Application)
 * Program able to detect text and faces within images.
