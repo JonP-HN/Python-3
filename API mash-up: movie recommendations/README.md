@@ -12,7 +12,7 @@ Data mash-up from the Application Programming Interfaces (APIs) of OMDB and Tast
 
 ## Technologies
 Project is created with:
-* Python
+* Python 3
 
 ## Source
 Final assesment project as part of a course titled: Data Collection and Processing with Python. This is provided by the University of Michigan through the Coursera platform.
